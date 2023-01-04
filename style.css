@@ -8,6 +8,7 @@ body{
     /* font-family: 'IBM Plex Serif', serif; */
     font-family: 'Bree Serif', serif;
 }
+
 .main-content{
     /* height: 1000px; */
     min-height: 1000px;
@@ -41,6 +42,7 @@ body{
     /* color: aliceblue; */
 
 }
+
 .profile img{
     display: block;
     margin: auto;
@@ -53,9 +55,10 @@ body{
     font-size: 1.2rem;
     font-weight: 700;
     text-align: center;
+    text-transform: uppercase;
     word-spacing: 0.02px;
     padding: 0.8rem;
-    text-transform: uppercase;
+   
 }
 .designation{
     font-size: 1rem;
@@ -151,3 +154,12 @@ a{
 .year{
     margin: 6px 6px;
 }
+
+
+@media screen and (max-width: 673px) {
+    .main-content{
+        grid-template-columns: repeat(1, 1fr);
+    
+    }
+}
+
