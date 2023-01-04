@@ -1,0 +1,153 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+body{
+    display: block;
+    /* font-family: 'IBM Plex Serif', serif; */
+    font-family: 'Bree Serif', serif;
+}
+.main-content{
+    /* height: 1000px; */
+    min-height: 1000px;
+    width: 90%;
+    margin: 30px auto;
+    display: grid;
+    grid-template-columns: 300px 700px;
+
+}
+.left-section{
+    background-color: black;
+    grid-column: span 1;
+    color: white;
+    /* height: 100px;
+    width: 100px; */
+}
+.right-section{
+    background-color: rgb(133, 123, 123);
+    grid-column: span 1/ span 2;
+    /* color: white; */
+}
+
+.left-content{
+    padding: 1rem;
+
+}
+.profile-details{
+
+}
+.profile{
+    /* color: aliceblue; */
+
+}
+.profile img{
+    display: block;
+    margin: auto;
+    border: 5px solid white;
+    border-radius: 30%;
+    width: 60%;
+}
+
+.name{
+    font-size: 1.2rem;
+    font-weight: 700;
+    text-align: center;
+    word-spacing: 0.02px;
+    padding: 0.8rem;
+    text-transform: uppercase;
+}
+.designation{
+    font-size: 1rem;
+    text-align: center;
+    text-transform: uppercase;
+    padding-bottom: 0.5rem;
+}
+.description{
+    font-size: 0.75rem;
+    text-align: center;
+    padding: 1rem;
+}
+li{
+    list-style: none;
+    /* font-size: 0.9rem; */
+}
+a{
+    text-decoration: none;
+}
+
+.contact-info{
+    margin: 0rem 1.1rem;
+}
+
+.social-media{
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 0.70rem;
+}
+/* .icon{
+    padding-right: 0.4rem;
+} */
+.skills{
+    margin: 0rem 1rem;
+    font-size: 0.75rem;
+    text-align: center;
+    text-transform: uppercase;
+    padding: 1rem 0.5rem;
+}
+
+
+/* skills */
+/* .skills-title{
+    font-size: 0.75rem;
+    text-align: center;
+    text-transform: uppercase;
+   padding: 1rem 0.5rem;
+} */
+.skill-item{
+    /* margin:0.8rem 0rem; */
+    padding: 0.3rem;
+}
+.skill-name{
+    font-size: 0.65rem;
+    text-align: left;
+    padding-bottom: 0.5rem;
+}
+.progress-bar{
+    border: 1px solid white;
+    height: 4px;
+    margin-bottom: 0.5rem;
+    background-color: white;
+    border-radius: 4px;
+}
+
+
+/* right part */
+.right-main-content{
+    padding: 2rem 3rem;
+}
+.right-title{
+    text-transform: uppercase;
+    font-size: 1.2rem;
+    font-weight: 700;
+    padding: 0.5rem;
+    word-spacing: 1px;
+}
+.para{
+    margin: 10px;
+    text-align: justify;
+}
+
+.content-item{
+    display: grid;
+    margin-bottom: 10px;
+    grid-template-columns: 5fr 1fr;
+    padding: 10px;
+    row-gap: 20px;
+}
+.ex-h5{
+    margin-bottom: 5px;
+}
+.year{
+    margin: 6px 6px;
+}
